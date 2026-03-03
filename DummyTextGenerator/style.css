@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+#formId{
+    width: 50vw;
+    height: 35vh;
+    display: block;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(85, 7, 85);;
+    
+}
+#Text{
+    width: 50vw;
+}
+
+input[type='number']{
+    padding: 10px 30px;
+    box-shadow: 4px 3px 5px rgba(0,0,0,0.3);
+    border: none;
+    background-color: rgb(176, 40, 176);
+    /* color: #fff;/ */
+}
+
+input:focus{
+    background-color: rgb(109, 68, 109);
+    outline: none;
+}
+
+
+#formSubmit{
+    padding: 9px 15px;
+    margin-left: 10px;
+    font-size: 1rem;
+    background-color: rgb(151, 68, 151);;
+    color: aliceblue;
+    border: none;
+}
+
+#Text{
+    margin-top: 5px;
+    background-color: blueviolet;
+    color: aliceblue;
+    font-size: 1rem;
+}
+
+
+@media(max-width:500px){
+    #formId{
+        width: 100vw;
+        height: 35vh;
+        display: block;
+        /* flex-direction: column; */
+        padding-top: 100px;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(85, 7, 85);;
+        
+    }   
+    
+#Text{
+    margin-top: 15%;
+    /* padding: 2px; */
+    background-color: blueviolet;
+    color: aliceblue;
+    font-size: 1rem;
+    /* text-align: center; */
+    width: 100%;
+}
+}
